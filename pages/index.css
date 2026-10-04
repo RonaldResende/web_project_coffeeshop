@@ -64,7 +64,7 @@
   background-size: cover;
 }
 
-.span__accent{
+.header__span-accent{
   display: block;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: italic;
@@ -129,6 +129,7 @@
   line-height: 20px ;
   color : #838383;
 }
+
 
 .recipes {
   background-color: #0a2750;
