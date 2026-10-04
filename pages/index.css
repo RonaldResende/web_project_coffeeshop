@@ -6,23 +6,20 @@
   line-height: 20px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(/web_project_coffeeshop/images/background_header.svg);
-  background-color: #FFFFFF;
-  background-position: center;
-  background-size: cover;
 }
 
 .nav{
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   padding-top: 30px;
   padding-right: 80px;
+  margin: 0;
 }
 
 .nav__logo{
   width: 105px;
   height: 39px;
-  position: absolute;
+  position: relative;
   padding-left: 30px;
   padding-top: 30px;
   justify-content: start;
@@ -51,19 +48,23 @@
   color: black;
 }
 
-.title{
+.header{
   display: flex;
   flex-direction: column;
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
-  max-width: 709px;
   margin-left: 80px;
   margin-bottom: 28px;
   flex-wrap: wrap;
+  position: relative;
+  background-image: url(../images/background_header.svg);
+  background-color: #FFFFFF;
+  background-position: center;
+  background-size: cover;
 }
 
-.span-accent{
+.span__accent{
   display: block;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: italic;
@@ -73,7 +74,7 @@
   color: #2F80ED;
 }
 
-.span__accent-title{
+.header__title{
   display: block;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -82,9 +83,10 @@
   line-height: 72px;
   margin-top: 183px;
   margin-bottom: 28px;
+  max-width: 709px;
 }
 
-.description{
+.header__description{
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-style: normal ;
@@ -96,7 +98,7 @@
 
 }
 
-.image__cafe{
+.header__image{
   position: absolute;
   width: 646px;
   height: 568px;
@@ -104,7 +106,7 @@
   top: 124px;
 }
 
-.footer{
+.header__footer{
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -116,8 +118,8 @@
   box-sizing: border-box;
 }
 
-.horarios p,
-.bloco-footer p {
+.header__horarios p,
+.header__bloco p {
   margin: 0;
   line-height: 1.5;
   font-family: "Inter", Arial, sans-serif;
