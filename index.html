@@ -76,7 +76,35 @@
           </div>
         </div>
       </section>
-      <section class="reservation" id="reservation"></section>
+      <section class="reservation" id="reservation">
+        <div class="reservation__form">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+            <form action="/process-form" class="form">
+                  <label class="form__label" for="Nome">Nome*</label>
+                    <input type="text"
+                      class="form__input"
+                      placeholder="Nome">
+                    <label class="form__label" for="Numero">Numero de convidados*</label>
+                    <input type="number"
+                      class="form__input"
+                      placeholder="1-8">
+                    <label class="form__label" for="DataeNascimento">Data e Hora*</label>
+                    <input type="datetime-local"
+                      class="form__input"
+                      >
+                  <label class="form__label" for="email">seu e-mail*</label>
+                    <input type="email"
+                      class="form__input"
+                      placeholder="email@email.com"
+                      >
+                  <button type="button" class="button">Reservar uma mesa</button>
+                  <div class="form__checkbox">
+                    <input type="checkbox" id="termos" class="form__check-input">Eu concordo com os termos de uso
+                  </div>
+                </form>
+              </div>
+          </div>
+      </section>
     </main>
     <footer class="footer"></footer>
   </div>
